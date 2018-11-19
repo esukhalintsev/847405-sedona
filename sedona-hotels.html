@@ -8,7 +8,6 @@
 
 <body>
     <header>
-        
         <nav class="site-navigation">
             <ul class="navigation-list">
                 <li> <a href="">Информация</a></li>
@@ -21,6 +20,63 @@
     </header>
 
     <main class="container">
+
+        <section class="filter-area">
+            <h2 class="visually-hidden">Настройка фильтра</h2>
+
+            <form class="filter-form">
+
+                <div class="infrastrucure-area">
+                    <h3 class="">Инфраструктура:</h3>
+                    <label for="pool">Бассейн</label>
+                    <input type="checkbox" id="pool" checked>
+                    <label for="parking">Парковка</label>
+                    <input type="checkbox" id="parking">
+                    <label for="wifi">Wi-Fi</label>
+                    <input type="checkbox" id="wifi">
+                </div>
+
+                <div class="house-area">
+                    <h3>Тип жилья:</h3>
+                    <label for="hotel">Гостница</label>
+                    <input type="checkbox" id="hotel" checked>
+                    <label for="motel">Мотель</label>
+                    <input type="checkbox" id="motel" checked>
+                    <label for="apartment">Апартаменты</label>
+                    <input type="checkbox" id="apartment" checked>
+
+                </div>
+
+                <div class="price-area">
+                    <h3>Стоимость в сутки (Р):</h3>
+                    <!--здесь будет что-то другое-->
+                    <p>от 0</p>
+                    <p>до 3000</p>
+                    <!-- -->
+                    <input type="range" min="0" max="4000" step="100" value="3000">
+                </div>
+                <input type="submit" value="Показать" class="show-button">
+            </form>
+        </section>
+
+        <section class="results">
+            <p class="find-result">Найдено:</p>
+            <!--здесь будет что-то другое, отражающее количество совпадений в зависимости от фильтра-->
+            <p class="number-result">3</p>
+            <!-- -->
+            <div class="sorting-area">
+                <p>Сортировка: </p>
+                <!--возможно тут h4-->
+                <a href="#" class="sorting-button">По цене</a>
+                <a href="#" class="sorting-button">По типу</a>
+                <a href="#" class="sorting-button">По рейтингу</a>
+            </div>
+            <!--пока не понял что делают эти стрелки - оставлю так-->
+            <a href="#">up</a>
+            <a href="#">down</a>
+            <!-- -->
+        </section>
+
         <section class="hotels">
             <ul class="hotels-list">
 
@@ -62,15 +118,9 @@
                         <a href="#" class="button book">Забронировать</a>
                     </div>
                 </li>
-
             </ul>
-
-
         </section>
-
-
     </main>
-
     <!--подвал-->
     <footer class="main-footer">
         <p class="hashtag">#Visitsedona</p>
@@ -90,8 +140,6 @@
             <span class="html-academy">html academy</span>
         </p>
     </footer>
-
-
 
 </body>
 
