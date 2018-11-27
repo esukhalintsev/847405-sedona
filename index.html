@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Sedona / Главная</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
@@ -20,10 +23,10 @@
     </header>
 
     <main class="container">
-
-        <h1 class="visually-hidden">Седона
+        <div class="head-wrapper">
+            <h1 class="visually-hidden">Седона</h1>
             <img src="./img/svg-sedona/intro-welcome.svg" width="459px" height="353px" alt="Приветственный логотип">
-        </h1>
+        </div>
 
         <section class="title-section">
             <b class="about-town">Седона - небольшой городок в Аризоне, заслуживающий большего!</b>
@@ -100,6 +103,7 @@
         <section class="hotels-seacrh">
             <b>Заинтересовались?</b>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <img src="./img/map.jpg" width="1200px" height="593px" alt="Седона на карте США">
             <button class="search-button">Поиск гостиницы в Седоне</button>
         </section>
     </main>
@@ -126,9 +130,11 @@
 
     <!--модальное окно поиска гостинницы-->
     <section class="modal-search-window">
+       <!--возможно тут будет visually-hidden-->
         <h3>Поиск гостиницы в седоне</h3>
+        <!-- -->
 
-        <form method="get" action="https://echo.htmlacademy.ru">
+        <form class="find-form" method="get" action="https://echo.htmlacademy.ru">
             <ul>
                 <li class="find-option">
                     <label for="date-in">Дата заезда:</label>
@@ -158,4 +164,5 @@
         </form>
     </section>
 </body>
+
 </html>
