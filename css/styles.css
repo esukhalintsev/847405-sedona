@@ -165,6 +165,10 @@ input[type="date"]:focus {
 }
 
 /*стили для sedona-hotels.html*/
+.current-page {
+    color:#766357;
+}
+
 .hotels-list {
     list-style: none;
 }
