@@ -78,7 +78,7 @@ a {
 
 .reasons-block {
     background-color: #81b3d2;
-}
+    }
 
 .hotels-seacrh b {
     font-size: 30px;
@@ -101,6 +101,11 @@ a {
 .reasons-title {
     font-size: 21px;
     font-weight: bold;
+}
+
+.reasons-list h3,
+.reasons-list p{
+    color:#000;
 }
 
 .features-section {
