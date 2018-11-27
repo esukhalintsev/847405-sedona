@@ -163,3 +163,67 @@ input[type="date"]:focus {
     color: rgba(255, 255, 255, 0.3);
     background-color: #5496bd;
 }
+
+/*стили для sedona-hotels.html*/
+.hotels-list {
+    list-style: none;
+}
+
+.hotel-item h2 > a {
+    line-height: 26px;
+    color: #000;
+}
+
+.hotel-item h2 > a:hover,
+.hotel-item h2 > a:focus {
+    color: #81b3d2;
+}
+
+.hotel-item h2 > a:active {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.hotel-type,
+.hotel-price {
+    line-height: 21px;
+}
+
+.hotel-rating {
+    width: 110px;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    color: #666666;
+    background-color: #f2f2f2;
+}
+
+
+.hotel-actions a:first-child {
+    color: white;
+    background-color: #81b3d2;
+}
+
+.hotel-actions a:last-child {
+    color: white;
+    background-color: #766357;
+}
+
+.hotel-actions a:first-child:hover,
+.hotel-actions a:first-child:focus {
+    background-color: #669ec0;
+}
+
+.hotel-actions a:last-child:hover,
+.hotel-actions a:last-child:focus {
+    background-color: #604e43;
+}
+
+.hotel-actions a:first-child:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
+
+.hotel-actions a:last-child:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #503e33;
+}
