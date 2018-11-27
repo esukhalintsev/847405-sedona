@@ -7,6 +7,7 @@ body {
     color: #000;
     text-transform: uppercase;
     background-color: #ffffff;
+    fill: currentColor;
 }
 
 .visually-hidden {
@@ -58,6 +59,7 @@ a {
 
 .title-section {
     text-align: center;
+    line-height: 21px;
 }
 
 .about-town {
@@ -74,10 +76,47 @@ a {
     text-align: center;
 }
 
+.reasons-block {
+    background-color: #81b3d2;
+}
+
 .hotels-seacrh b {
     font-size: 30px;
     font-weight: bold;
     line-height: 36px;
+}
+
+.features-list,
+.reasons-list {
+    list-style: none;
+}
+
+.features-section {
+    text-align: center;
+    line-height: 21px;
+}
+
+.features-item h3,
+.reasons-list h3,
+.reasons-title {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.features-section {
+    text-align: center;
+    line-height: 21px;
+}
+
+.features-item p {
+    font-size: 14px;
+}
+
+.reasons-section {
+    text-align: center;
+    line-height: 21px;
+    background-color: #eeeeee;
+    color: #fff;
 }
 
 .search-button {
@@ -120,6 +159,15 @@ a {
     font-weight: normal;
 }
 
+.developer svg:hover,
+.developer svg:focus {
+    fill: #81b3d2;
+}
+
+.developer svg:active {
+    fill: #bdbbbc;
+}
+
 .find-form ul {
     list-style: none;
 }
@@ -129,18 +177,24 @@ a {
     font-weight: bold;
 }
 
-input[type="date"] {
+input[type="text"] {
     border: none;
     background-color: #f2f2f2;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-input[type="date"]:hover {
+input::placeholder {
+    color: #000;
+}
+
+input[type="text"]:hover {
     background-color: #ebebeb;
 }
 
-input[type="date"]:focus {
+input[type="text"]:focus {
+    outline-color: #e5e5e5;
+    outline-width: 2px;
     background-color: #ffffff;
 }
 
@@ -167,7 +221,7 @@ input[type="date"]:focus {
 
 /*стили для sedona-hotels.html*/
 .current-page {
-    color:#766357;
+    color: #766357;
 }
 
 .hotels-list {
