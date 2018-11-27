@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-navigation {
+    text-align: center;
+    font-weight: bold;
+    line-height: 26px;
+    color: #000;
+    background-color: inherit;
+}
+
+.navigation-list {
+    list-style: none;
+}
+
+.navigation-list a {
+    color: #000;
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+    color: #81b3d2;
+}
+
+.navigation-list a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.head-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #81b3d2;
+    background-image: url(../img/main-background.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.title-section {
+    text-align: center;
+}
+
+.about-town {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.about-reasons {
+    line-height: 26px;
+}
+
+.hotels-seacrh {
+    text-align: center;
+}
+
+.hotels-seacrh b {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.search-button {
+    width: 568px;
+    height: 86px;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    background-color: #766357;
+}
+
+.search-button:hover,
+.search-button:focus {
+    background-color: #604e43;
+}
+
+.search-button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #503e33;
+}
+
+.hashtag {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.footer-social-list {
+    list-style: none;
+    text-align: center;
+}
+
+.developer {
+    line-height: 26px;
+}
+
+.developer b {
+    font-weight: normal;
+}
+
+.find-form ul {
+    list-style: none;
+}
+
+.find-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    border: none;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input[type="date"]:hover {
+    background-color: #ebebeb;
+}
+
+input[type="date"]:focus {
+    background-color: #ffffff;
+}
+
+.modal-button {
+    width: 458px;
+    height: 58px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #81b3d2;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    background-color: #669ec0;
+}
+
+.modal-button:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
