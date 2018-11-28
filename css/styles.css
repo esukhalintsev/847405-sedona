@@ -158,11 +158,20 @@ a {
 }
 
 .developer {
+    display: flex;
+    width: 195px;
+    flex-direction: row;
+    align-items: center;
     line-height: 26px;
 }
 
 .developer b {
     font-weight: normal;
+    margin-right: 6px;
+}
+
+.developer svg {
+    vertical-align: middle;
 }
 
 .developer svg:hover,
@@ -172,6 +181,45 @@ a {
 
 .developer svg:active {
     fill: #bdbbbc;
+}
+
+.main-footer,
+.footer-social-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-button {
+    display: inline-block;
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.social-button:hover,
+.social-button:focus {
+    background-color: #669ec0;
+}
+
+.social-button:active {
+    background-color: #5496bd;
+
+}
+
+.social-tw {
+    background-image: url(../img/svg-sedona/twitter.svg);
+}
+
+.social-fb {
+    background-image: url(../img/svg-sedona/fb-icon.svg);
+}
+
+.social-ytb {
+    background-image: url(../img/svg-sedona/youtube.svg);
 }
 
 .find-form ul {
@@ -285,7 +333,6 @@ input[type=checkbox]:disabled + label::before {
     background-image: url(../img/svg-sedona/checkbox-off-dis.svg);
     fill: #6a6a6a;
 }
-
 
 .cost-per-day {
     width: 220px;
