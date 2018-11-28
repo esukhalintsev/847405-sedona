@@ -55,6 +55,7 @@ a {
     background-image: url(../img/main-background.jpg);
     background-position: top center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title-section {
@@ -78,7 +79,7 @@ a {
 
 .reasons-block {
     background-color: #81b3d2;
-    }
+}
 
 .hotels-seacrh b {
     font-size: 30px;
@@ -104,8 +105,8 @@ a {
 }
 
 .reasons-list h3,
-.reasons-list p{
-    color:#000;
+.reasons-list p {
+    color: #000;
 }
 
 .features-section {
@@ -227,6 +228,120 @@ input[type="text"]:focus {
 /*стили для sedona-hotels.html*/
 .current-page {
     color: #766357;
+}
+
+.filter-area {
+    background: url('../img/filter-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.filter-form {
+    color: #fff;
+    line-height: 21px;
+}
+
+.filter-form ul {
+    list-style: none;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+label::before {
+    content: "";
+    width: 23px;
+    height: 23px;
+    margin-right: 15px;
+    display: inline-block;
+    background-image: url(../img/svg-sedona/checkbox-off.svg);
+}
+
+input[type=checkbox]:checked + label::before {
+    width: 27px;
+    background-image: url(../img/svg-sedona/checkbox-on.svg);
+}
+
+input[type=checkbox]:checked:disabled + label::before {
+    width: 27px;
+    background-image: url(../img/svg-sedona/checkbox-on-dis.svg);
+    fill: #6a6a6a;
+}
+
+input[type=checkbox]:disabled + label::before {
+    width: 23px;
+    background-image: url(../img/svg-sedona/checkbox-off-dis.svg);
+    fill: #6a6a6a;
+}
+
+
+.cost-per-day {
+    width: 220px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.show-button {
+    width: 133px;
+    height: 32px;
+    color: #fff;
+    line-height: 21px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+.show-button:hover,
+.show-button:focus {
+    color: #000;
+    background-color: #fff;
+}
+
+.find-result,
+.number-result {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: left;
+}
+
+.sorting-area {
+    line-height: 17.5px;
+    font-size: 10.5px;
+    text-align: left;
+}
+
+.sorting-button {
+    color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px dotted #81b3d2;
+}
+
+.sorting-button:hover,
+.sorting-button:focus {
+    color: #81b3d2;
+}
+
+.sorting-button:active {
+    color: #000;
+    border: none;
+}
+
+.checked {
+    border: none;
+    color: #81b3d2;
 }
 
 .hotels-list {
