@@ -1040,6 +1040,7 @@ input[type=number] {
     border: none;
 }
 
+
 /*стили для sedona-hotels.html*/
 .current-page {
     color: #766357;
@@ -1058,6 +1059,7 @@ input[type=number] {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 5px;
 }
 
 .left-column fieldset {
@@ -1105,18 +1107,20 @@ input[type=number] {
     display: inline-block;
     font-size: 14px;
     line-height: 21px;
-    vertical-align: top;
+    vertical-align: middle;
     cursor: pointer;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
+    margin-top: -5px;
     width: 90px;
     padding-left: 65px;
 }
 
 .price-controls .max-price {
-    padding-left: 55px;
+    padding-left: 52px;
+    padding-right: 13px;
 }
 
 .price-controls input {
@@ -1132,6 +1136,10 @@ input[type=number] {
 .price-controls input:active {
     cursor: pointer;
     background-color: transparent;
+}
+
+.price-controls input:focus {
+    outline: 3px solid #81b3d2;
 }
 
 .range-controls {
@@ -1207,7 +1215,8 @@ fieldset {
 
 legend {
     margin: 0;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 28px;
     font-weight: bold;
     font-size: 16px;
 }
@@ -1216,11 +1225,12 @@ legend {
     padding: 0;
     margin: 0;
     padding-left: 30px;
-    padding-top: 20px;
+    padding-bottom: 27px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .checkbox-list label {
@@ -1228,12 +1238,13 @@ legend {
     display: block;
     cursor: pointer;
     user-select: none;
+    padding-left: 10px;
 }
 
 .checkbox-input + label::before {
     content: "";
     left: -30px;
-    top: 0;
+    top: -1px;
     width: 27px;
     height: 23px;
     position: absolute;
@@ -1245,7 +1256,7 @@ legend {
 .checkbox-input:checked + label::before {
     content: "";
     position: absolute;
-    top: 0px;
+    top: -1px;
     left: -28px;
     width: 27px;
     height: 23px;
@@ -1253,15 +1264,21 @@ legend {
     background-repeat: no-repeat;
     background-position: top center;
 }
-.checkbox-input:checked:focus + label::before {
-    outline: 2px;
-    outline-width: 2px;
-    outline-color: red;
-   
+
+.checkbox-input:focus + label {
+    outline: 3px solid #81b3d2;
 }
 
-.checkbox-input:active {
-    border: 5px solid red;
+.checkbox-input:disabled + label::before {
+    background: url(../img/svg-sedona/checkbox-off-dis.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.checkbox-input:checked:disabled + label::before {
+    background: url(../img/svg-sedona/checkbox-on-dis.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .filter-range {
@@ -1300,6 +1317,7 @@ legend {
 .show-button:focus {
     color: #000;
     background-color: #fff;
+
 }
 
 .results {
@@ -1312,6 +1330,8 @@ legend {
 .find-result {
     margin-left: 72px;
     margin-right: 49px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -1323,7 +1343,7 @@ legend {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 73px;
+    margin-right: 62px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -1350,7 +1370,7 @@ legend {
     cursor: pointer;
     margin: 0;
     padding: 0;
-    margin-right: 8px;
+    margin-right: 12px;
 }
 
 .sorting-area {
@@ -1455,7 +1475,20 @@ legend {
 .hotel-type,
 .hotel-price {
     line-height: 21px;
+}
 
+.hotel-type {
+    width: 110px;
+}
+
+.hotel-price {
+    width: 142px;
+    margin-left: auto;
+}
+
+.hotels-info {
+    display: flex;
+    justify-content: space-between;
 }
 
 .hotel-score {
@@ -1497,6 +1530,7 @@ legend {
 .hotel-actions a:first-child {
     color: white;
     background-color: #81b3d2;
+    margin-right: 6px;
 }
 
 .hotel-actions a:last-child {
