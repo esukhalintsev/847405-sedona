@@ -12,6 +12,10 @@ body {
     fill: currentColor;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .hotels-page {
     background-color: #f2f2f2;
@@ -149,10 +153,6 @@ a {
     background-repeat: no-repeat, no-repeat;
     background-position: center 454px, 0 -56px;
     background-size: 1200px 57px, auto auto;
-}
-
-.head-wrapper img {
-    padding-top: 76px;
 }
 
 .title-section {
