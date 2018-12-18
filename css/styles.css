@@ -17,7 +17,6 @@ body {
     background-color: #f2f2f2;
     min-width: 1280px;
     min-height: 933px;
-
 }
 
 .main-container {
@@ -118,8 +117,6 @@ a {
 
 .navigation-list a {
     color: #000;
-
-
 }
 
 .navigation-list a:hover,
@@ -471,6 +468,10 @@ a {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 2;
+}
+.hotels-page .main-footer{
+    position: inherit;
+    background-color: #fff;
 }
 
 .hashtag {
