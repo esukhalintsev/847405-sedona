@@ -30,7 +30,7 @@ img {
     min-height: inherit;
     background-color: #fff;
     -webkit-box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
-            box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+    box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -101,7 +101,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .navigation-list li:nth-child(4n+1) {
@@ -157,7 +157,7 @@ a {
         url(../img/svg-sedona/intro-mask.svg),
         url(../img/main-background.jpg);
     background-repeat: no-repeat, no-repeat;
-    background-position: center 454px, 0 -56px;
+    background-position: center 454px, 0 -82px;
     background-size: 1200px 57px, auto auto;
 }
 
@@ -183,7 +183,7 @@ a {
 .about-town {
     width: 440px;
     padding-top: 60px;
-    padding-bottom: 14px;
+    padding-bottom: 13px;
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
@@ -209,14 +209,14 @@ a {
     -ms-flex-align: center;
     align-items: center;
     background-color: #81b3d2;
-    
+
 
 }
 
 .reasons-block h3 {
     margin: 0;
     padding-top: 46px;
-    padding-bottom: 27px;
+    padding-bottom: 25px;
     padding-left: 100px;
     padding-right: 100px;
     max-width: 200px;
@@ -227,8 +227,9 @@ a {
 }
 
 .reasons-block span {
-    padding-bottom: 22px;
+    padding-bottom: 21px;
     line-height: 21px;
+
 }
 
 .reasons-block p {
@@ -239,6 +240,7 @@ a {
     max-width: 320px;
     line-height: 21px;
     word-wrap: break-word;
+    letter-spacing: 0;
 }
 
 .reasons-block.bridge h3 {
@@ -252,6 +254,7 @@ a {
     padding-left: 45px;
     padding-right: 45px;
 }
+
 .reasons-list h3,
 .reasons-list p,
 .reasons-list span {
@@ -259,12 +262,7 @@ a {
     color: #000;
 }
 
-.reasons-list p {
-    padding: 0;
-    margin: 0;
-    width: 270px;
-    padding-bottom: 63px;
-}
+
 
 .features-section {
     text-align: center;
@@ -324,14 +322,14 @@ a {
 .features-item p {
     padding: 0;
     margin: 0;
-    padding-top: 23px;
+    padding-top: 25px;
     width: 300px;
     font-size: 14px;
 
 }
 
 .features-item .gifts-text {
-    margin-top: -22px;
+    margin-top: -25px;
 }
 
 
@@ -367,20 +365,22 @@ a {
     line-height: 21px;
     background-color: #eeeeee;
     color: #fff;
-    
+
 }
+
 .town {
-     background-image: url(../img/layer-1.jpg);
+    background-image: url(../img/layer-1.jpg);
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
 }
+
 .bridge {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-     background-image: url(../img/layer-2.jpg);
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    background-image: url(../img/layer-2.jpg);
     background-position: left;
     background-size: auto;
     background-repeat: no-repeat;
@@ -412,8 +412,8 @@ a {
 .reasons-list h3 {
     padding: 0;
     margin: 0;
-    padding-top: 45px;
-    padding-bottom: 27px;
+    padding-top: 47px;
+    padding-bottom: 25px;
     width: 123px;
     font-size: 21px;
     font-weight: bold;
@@ -423,7 +423,14 @@ a {
 .reasons-list span {
     margin: 0;
     padding: 0;
-    margin-bottom: 22px;
+    margin-bottom: 21px;
+}
+
+.reasons-list p {
+    padding: 0;
+    margin: 0;
+    width: 270px;
+    padding-bottom: 59px;
 }
 
 .hotels-seacrh {
@@ -437,11 +444,10 @@ a {
 }
 
 .hotels-seacrh p {
-    margin-top: 24px;
-    margin-bottom: 23px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     text-align: center;
     font-weight: 400;
-
 }
 
 .hotels-wrap {
@@ -482,15 +488,16 @@ a {
     position: absolute;
     padding: 0;
     margin: 0;
-    bottom: 0px;
+    bottom: 7px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
+    -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
+    -ms-flex-align: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 2;
@@ -499,21 +506,27 @@ a {
 .hotels-page .main-footer {
     position: inherit;
     background-color: #fff;
+    bottom: 0px;
 }
 
 .hashtag {
     padding: 0;
     margin: 0;
+    margin-top: -4px;
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
-    flex:1;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     text-align: center;
 }
 
 .footer-social {
     text-align: center;
-    flex:1;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .footer-social-list {
@@ -527,9 +540,11 @@ a {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     list-style: none;
-    
+
 }
 
 .developer {
@@ -545,21 +560,28 @@ a {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    flex:1;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     line-height: 26px;
 
 }
 
 .developer b {
-    margin-right: 8px;
+    margin-top: -3px;
+    margin-right: 12px;
     font-weight: normal;
 }
 
 .developer svg {
     vertical-align: middle;
     fill: #000;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
     transform: scale(1.05);
 
 }
@@ -592,6 +614,7 @@ a {
     background-position: center;
 
 }
+
 .social-button svg {
     fill: #fff;
 }
@@ -617,14 +640,13 @@ a {
 
 input[type="text"] {
     width: 346px;
-    height: 28px;
+    height: 36px;
     border: none;
     background-color: #f2f2f2;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
 }
-
 
 input[type="text"]::after {
     content: "";
@@ -682,7 +704,7 @@ input[type="text"]:focus {
     background-color: white;
     z-index: 3;
     -webkit-box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
-            box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.3);
     -webkit-animation: bounceIn 0.9s;
     animation: bounceIn 0.9s;
 }
@@ -760,7 +782,7 @@ input[type="text"]:focus {
     100% {
         -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
         -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-           transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     }
 
     0% {
@@ -820,8 +842,9 @@ input[type="text"]:focus {
 .departure {
     height: auto;
 }
+
 .departure {
-    padding-top: 9px;
+    padding-top: 5px;
 }
 
 .search-hotels-form {
@@ -866,8 +889,9 @@ input[type="text"]:focus {
     background-color: transparent;
     outline: none;
 }
+
 .button-calendar-departure {
-    top: 15px;
+    top: 12px;
 }
 
 .button-calendar-arrival:hover path,
@@ -889,10 +913,11 @@ input[type="text"]:focus {
 }
 
 .date-out {
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 .adults-label {
+    padding-top: 8px;
     padding-right: 41px;
     padding-bottom: 1px;
     width: 72px;
@@ -995,7 +1020,7 @@ input[type=number] {
     background-color: #f2f2f2;
     outline: none;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .button-plus {
@@ -1022,7 +1047,7 @@ input[type=number] {
 .button-plus::after {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .button-plus:hover::after,
@@ -1053,6 +1078,7 @@ input[type=number] {
 
 .children-label {
     width: 39px;
+    padding-top: 3px;
     padding-right: 26px;
     padding-bottom: 1px;
     word-wrap: break-word;
@@ -1088,6 +1114,7 @@ input[type=number] {
 }
 
 .map {
+    min-height: 593px;
     position: relative;
 }
 
@@ -1112,7 +1139,7 @@ input[type=number] {
 }
 
 .filter-area {
-    min-height: 200px;
+    min-height: 217px;
     background: url('../img/filter-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -1126,7 +1153,7 @@ input[type=number] {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .left-column fieldset {
@@ -1141,7 +1168,6 @@ input[type=number] {
 }
 
 .filter-range-title {
-    margin-top: -5px;
     padding: 0;
     margin-bottom: 9px;
     font-weight: 600;
@@ -1151,11 +1177,12 @@ input[type=number] {
 
 .price-controls {
     position: relative;
-    margin-bottom: 20px;
-    height: 32px;
+    height: 36px;
+    margin-bottom: 15px;
     font-size: 0;
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
     border-radius: 2px;
+
 }
 
 .price-controls::after {
@@ -1168,23 +1195,23 @@ input[type=number] {
     background: #ffffff;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .price-controls label {
-    margin: 0;
-    padding: 0;
     display: inline-block;
     font-size: 14px;
     line-height: 21px;
-    vertical-align: middle;
+    vertical-align: top;
     cursor: pointer;
+    color: #fff;
 }
 
 .price-controls .min-price,
 .price-controls .max-price {
     padding-left: 65px;
     width: 90px;
+
 }
 
 .price-controls .max-price {
@@ -1194,11 +1221,12 @@ input[type=number] {
 
 .price-controls input {
     width: 50px;
+    height: 30px;
     margin: 0;
     color: inherit;
     font: inherit;
-    background: none;
-    border: none;
+    background: 0 0;
+    border: 0;
 }
 
 .price-controls input:hover,
@@ -1210,6 +1238,7 @@ input[type=number] {
 .price-controls input:focus {
     outline: 3px solid #81b3d2;
 }
+
 
 .range-controls {
     position: relative;
@@ -1236,14 +1265,14 @@ input[type=number] {
     border: 8px solid #ffffff;
     border-radius: 50%;
     -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-            box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
     cursor: pointer;
 }
 
 .range-toggle:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
-        transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .range-toggle-min {
@@ -1262,7 +1291,7 @@ input[type=number] {
     -ms-flex-pack: justify;
     justify-content: space-between;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     color: #fff;
     line-height: 21px;
 }
@@ -1274,7 +1303,7 @@ input[type=number] {
 }
 
 .filter-form fieldset:last-child {
-    margin-left: 115px;
+    margin-left: 120px;
 }
 
 fieldset {
@@ -1282,18 +1311,18 @@ fieldset {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     border: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 legend {
     margin: 0;
-    padding-top: 25px;
-    padding-bottom: 28px;
+    padding-top: 28px;
+    padding-bottom: 26px;
     font-weight: bold;
     font-size: 16px;
 }
@@ -1302,7 +1331,7 @@ legend {
     padding: 0;
     margin: 0;
     padding-left: 30px;
-    padding-bottom: 27px;
+    padding-bottom: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1392,8 +1421,8 @@ legend {
     margin: 0 auto;
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-left: 34px;
-    padding-right: 34px;
+    padding-left: 35px;
+    padding-right: 35px;
     color: #fff;
     line-height: 21px;
     text-transform: uppercase;
@@ -1420,8 +1449,9 @@ legend {
 .find-result {
     margin-left: 72px;
     margin-right: 49px;
+    margin-bottom: 24px;
     padding-top: 8px;
-    padding-bottom:8px;
+    padding-bottom: 8px;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -1473,24 +1503,31 @@ legend {
     line-height: 17.5px;
     font-size: 12px;
     text-align: left;
- }
+}
 
 .sorting-area p {
     padding: 0;
     margin: 0;
-    margin-top: 2px;
+    margin-top: 4px;
     margin-right: 40px;
 }
 
 .sorting-area ul {
     margin: 0;
     padding: 0;
-    margin-top: 2px;
+    margin-top: 4px;
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
-   
+
 }
 
 .sorting-button {
@@ -1546,11 +1583,22 @@ legend {
 
 .item-wrapper {
     min-height: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-right: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    align-items: stretch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
     justify-content: space-between;
-   
+
 }
 
 .hotel-item img {
@@ -1580,7 +1628,7 @@ legend {
 }
 
 .hotels-info {
-    margin-top: -10px;
+    margin-top: -16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1621,7 +1669,7 @@ legend {
 
 .hotel-rating {
     width: 110px;
-    height: 27px;
+    height: 26px;
     text-align: center;
     vertical-align: middle;
     color: #666666;
@@ -1645,6 +1693,7 @@ legend {
 }
 
 .hotel-actions a:last-child {
+    margin-left: -3px;
     color: white;
     background-color: #766357;
 }
@@ -1680,6 +1729,6 @@ legend {
 
 .hotel-stars img {
     margin: 0;
-    margin-left: 7px;
+    margin-left: 6px;
     padding: 0;
 }
