@@ -18,14 +18,14 @@ img {
 }
 
 .hotels-page {
-    background-color: #f2f2f2;
     min-width: 1280px;
     min-height: 933px;
+    background-color: #f2f2f2;
 }
 
 .main-container {
-    margin: 0 auto;
     position: relative;
+    margin: 0 auto;
     width: 1200px;
     min-height: inherit;
     background-color: #fff;
@@ -36,11 +36,11 @@ img {
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden {
     position: absolute;
+    margin: -1px;
+    padding: 0;
     width: 1px;
     height: 1px;
-    margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     -webkit-clip-path: inset(100%);
     clip-path: inset(100%);
@@ -64,8 +64,8 @@ a {
     left: 0;
     margin: 0 auto;
     margin-top: -1px;
-    width: 140px;
     display: block;
+    width: 140px;
     z-index: 1;
 }
 
@@ -159,8 +159,8 @@ a {
     background-repeat: no-repeat, no-repeat;
     background-position: center 454px, 0 -82px;
     background-size: 1200px 57px, auto auto;
+    background-color: #677c8b;
 }
-
 
 .title-section {
     padding: 0;
@@ -209,16 +209,11 @@ a {
     -ms-flex-align: center;
     align-items: center;
     background-color: #81b3d2;
-
-
 }
 
 .reasons-block h3 {
     margin: 0;
-    padding-top: 46px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 46px 100px 25px 100px;
     max-width: 200px;
     word-wrap: break-word;
     font-size: 21px;
@@ -229,12 +224,11 @@ a {
 .reasons-block span {
     padding-bottom: 21px;
     line-height: 21px;
-
 }
 
 .reasons-block p {
-    padding: 0;
     margin: 0;
+    padding: 0;
     padding-left: 30px;
     padding-right: 30px;
     max-width: 320px;
@@ -245,9 +239,7 @@ a {
 
 .reasons-block.bridge h3 {
     width: 300px;
-    padding-top: 50px;
-    padding-left: 161px;
-    padding-right: 160px;
+    padding: 50px 160px 0px 161px;
 }
 
 .reasons-block.bridge p {
@@ -261,8 +253,6 @@ a {
     word-wrap: break-word;
     color: #000;
 }
-
-
 
 .features-section {
     text-align: center;
@@ -282,7 +272,6 @@ a {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     list-style: none;
-
 }
 
 .features-item {
@@ -310,22 +299,21 @@ a {
 }
 
 .features-item h3::before {
-    content: "";
-    width: 80px;
-    height: 80px;
     position: absolute;
     top: -105px;
     left: 50%;
     margin-left: -40px;
+    content: "";
+    width: 80px;
+    height: 80px;
 }
 
 .features-item p {
-    padding: 0;
     margin: 0;
+    padding: 0;
     padding-top: 25px;
     width: 300px;
     font-size: 14px;
-
 }
 
 .features-item .gifts-text {
@@ -365,7 +353,6 @@ a {
     line-height: 21px;
     background-color: #eeeeee;
     color: #fff;
-
 }
 
 .town {
@@ -373,6 +360,7 @@ a {
     background-position: right;
     background-size: auto;
     background-repeat: no-repeat;
+    background-color: #9e785c;
 }
 
 .bridge {
@@ -384,6 +372,7 @@ a {
     background-position: left;
     background-size: auto;
     background-repeat: no-repeat;
+    background-color: #825139;
 }
 
 .reasons-list li {
@@ -410,27 +399,26 @@ a {
 }
 
 .reasons-list h3 {
-    padding: 0;
     margin: 0;
+    padding: 0;
     padding-top: 44px;
     padding-bottom: 25px;
     width: 123px;
     font-size: 21px;
     font-weight: bold;
-
 }
 
 .reasons-list span {
     margin: 0;
-    padding: 0;
     margin-bottom: 21px;
+    padding: 0;
 }
 
 .reasons-list p {
-    padding: 0;
     margin: 0;
-    width: 270px;
+    padding: 0;
     padding-bottom: 59px;
+    width: 270px;
 }
 
 .hotels-seacrh {
@@ -452,19 +440,16 @@ a {
 
 .hotels-wrap {
     margin: 0 auto;
+    margin-bottom: 62px;
     padding: 0;
     padding-top: 50px;
-    margin-bottom: 62px;
     width: 437px;
     min-height: 96px;
 }
 
 .search-button {
     position: relative;
-    padding-top: 32px;
-    padding-bottom: 31px;
-    padding-left: 140px;
-    padding-right: 139px;
+    padding: 32px 139px 31px 140px;
     margin-top: -16px;
     font-size: 21px;
     font-weight: bold;
@@ -505,8 +490,8 @@ a {
 
 .hotels-page .main-footer {
     position: inherit;
-    background-color: #fff;
     bottom: 0px;
+    background-color: #fff;
 }
 
 .hashtag {
@@ -544,12 +529,11 @@ a {
     -ms-flex-align: center;
     align-items: center;
     list-style: none;
-
 }
 
 .developer {
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -568,7 +552,6 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
     line-height: 26px;
-
 }
 
 .developer b {
@@ -583,7 +566,6 @@ a {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-
 }
 
 .developer svg:hover,
@@ -612,13 +594,11 @@ a {
     background-color: #81b3d2;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .social-button svg {
     fill: #fff;
 }
-
 
 .social-button:hover,
 .social-button:focus {
@@ -653,6 +633,7 @@ input[type="text"]::after {
     width: 25px;
     height: 25px;
     display: inline-block;
+    vertical-align: middle;
 }
 
 input::-webkit-input-placeholder {
@@ -696,10 +677,10 @@ input[type="text"]:focus {
 }
 
 .find-form {
-    padding: 30px 55px 55px 55px;
-    max-width: 458px;
-    margin-left: 316px;
     position: absolute;
+    padding: 30px 55px 55px 55px;
+    margin-left: 316px;
+    max-width: 458px;
     display: none;
     background-color: white;
     z-index: 3;
@@ -724,7 +705,6 @@ input[type="text"]:focus {
     animation-fill-mode: both;
 }
 
-
 @-webkit-keyframes slideInDown {
     0% {
         -webkit-transform: translateY(-10px);
@@ -746,7 +726,6 @@ input[type="text"]:focus {
         transform: translateY(0);
     }
 }
-
 
 @keyframes slideInDown {
     0% {
@@ -798,8 +777,8 @@ input[type="text"]:focus {
 }
 
 .search-hotels-form {
-    width: 458px;
     margin-top: -20px;
+    width: 458px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -855,8 +834,8 @@ input[type="text"]:focus {
 }
 
 .date-form {
-    margin-right: auto;
     margin: 0;
+    margin-right: auto;
     padding-top: 7px;
     width: 97px;
     letter-spacing: 0.2px;
@@ -867,9 +846,7 @@ input[type="text"]:focus {
 }
 
 .adults-label {
-    padding-top: 8px;
-    padding-right: 41px;
-    padding-bottom: 1px;
+    padding: 8px 41px 1px 0px;
     width: 72px;
     word-wrap: break-word;
 }
@@ -956,12 +933,12 @@ input[type=number] {
 }
 
 .search-input {
-    padding: 0;
     margin: 0;
+    padding: 0;
     padding-left: 13px;
     padding-right: 35px;
-    height: 38px;
     width: 346px;
+    height: 38px;
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
@@ -1027,19 +1004,14 @@ input[type=number] {
 }
 
 .children-label {
+    padding: 3px 26px 1px 0px;
     width: 39px;
-    padding-top: 3px;
-    padding-right: 26px;
-    padding-bottom: 1px;
     word-wrap: break-word;
 }
 
 .button-search {
     margin-top: 29px;
-    padding-top: 16px;
-    padding-bottom: 18px;
-    padding-left: 196px;
-    padding-right: 197px;
+    padding: 16px 197px 18px 196px;
     font-size: 21px;
     text-transform: uppercase;
     text-align: center;
@@ -1064,8 +1036,8 @@ input[type=number] {
 }
 
 .map {
-    min-height: 593px;
     position: relative;
+    min-height: 593px;
 }
 
 .map img {
@@ -1081,8 +1053,6 @@ input[type=number] {
     z-index: 2;
     border: none;
 }
-
-
 /*стили для sedona-hotels.html*/
 .current-page {
     color: #766357;
@@ -1094,6 +1064,7 @@ input[type=number] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #657a8a;
 }
 
 .left-column {
@@ -1127,12 +1098,11 @@ input[type=number] {
 
 .price-controls {
     position: relative;
-    height: 36px;
     margin-bottom: 15px;
+    height: 36px;
     font-size: 0;
     border: 2px solid #fff;
     border-radius: 2px;
-
 }
 
 .price-controls::after {
@@ -1161,7 +1131,6 @@ input[type=number] {
 .price-controls .max-price {
     padding-left: 65px;
     width: 90px;
-
 }
 
 .price-controls .max-price {
@@ -1188,7 +1157,6 @@ input[type=number] {
 .price-controls input:focus {
     outline: 3px solid #81b3d2;
 }
-
 
 .range-controls {
     position: relative;
@@ -1278,8 +1246,8 @@ legend {
 }
 
 .checkbox-list li {
-    padding: 0;
     margin: 0;
+    padding: 0;
     padding-left: 30px;
     padding-bottom: 24px;
     display: -webkit-box;
@@ -1295,7 +1263,6 @@ legend {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-
 }
 
 .checkbox-list label {
@@ -1307,7 +1274,6 @@ legend {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-
 }
 
 .checkbox-input + label::before {
@@ -1351,9 +1317,9 @@ legend {
 }
 
 .filter-range {
-    padding: 0;
     margin: 0;
     margin-right: 75px;
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1367,12 +1333,8 @@ legend {
 }
 
 .show-button {
-    padding: 0;
     margin: 0 auto;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 7px 35px 7px 35px;
     color: #fff;
     line-height: 21px;
     text-transform: uppercase;
@@ -1386,7 +1348,6 @@ legend {
 .show-button:focus {
     color: #000;
     background-color: #fff;
-
 }
 
 .results {
@@ -1435,8 +1396,8 @@ legend {
 .up-button,
 .down-button {
     margin: 0;
-    padding: 0;
     margin-right: 12px;
+    padding: 0;
     background-color: transparent;
     border: 0;
     outline: none;
@@ -1456,16 +1417,16 @@ legend {
 }
 
 .sorting-area p {
-    padding: 0;
     margin: 0;
     margin-top: 4px;
     margin-right: 40px;
+    padding: 0;
 }
 
 .sorting-area ul {
     margin: 0;
-    padding: 0;
     margin-top: 4px;
+    padding: 0;
     list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1477,7 +1438,6 @@ legend {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-
 }
 
 .sorting-button {
@@ -1528,7 +1488,6 @@ legend {
     -ms-flex-align: center;
     align-items: center;
     border-bottom: 1px solid #e5e5e5;
-
 }
 
 .item-wrapper {
@@ -1548,7 +1507,6 @@ legend {
     -ms-flex-align: stretch;
     align-items: stretch;
     justify-content: space-between;
-
 }
 
 .hotel-item img {
@@ -1601,7 +1559,6 @@ legend {
     margin-left: auto;
 }
 
-
 .hotel-score {
     margin-right: 72px;
     height: 90px;
@@ -1628,10 +1585,7 @@ legend {
 
 .hotel-actions a {
     margin: 0;
-    padding-top: 5px;
-    padding-bottom: 4px;
-    padding-left: 17px;
-    padding-right: 17px;
+    padding: 5px 17px 4px 17px;
 }
 
 .hotel-actions a:first-child {
