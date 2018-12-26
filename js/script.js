@@ -2,6 +2,8 @@
    var popup = document.querySelector(".find-form");
    var time = popup.querySelector(".search-input");
 
+   popup.classList.remove("form-show");
+
    button.addEventListener("click", function (evt) {
        evt.preventDefault();
        popup.classList.toggle("form-show");
