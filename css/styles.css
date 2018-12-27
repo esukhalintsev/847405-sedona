@@ -889,6 +889,18 @@ input[type=number] {
     box-sizing: border-box;
 }
 
+.find-form input::-webkit-input-placeholder {
+    color: #000;
+}
+
+.find-form input:-ms-input-placeholder {
+    color: #000;
+}
+
+.find-form input::-ms-input-placeholder {
+    color: #000;
+}
+
 .find-form input::placeholder {
     color: #000;
 }
@@ -1259,6 +1271,10 @@ legend {
     outline: 3px solid #81b3d2;
 }
 
+.checkbox-input:disabled + label{
+color:#6a6a6a
+}
+
 .checkbox-input:disabled + label::before {
     background: url(../img/svg-sedona/checkbox-off-dis.svg);
     background-repeat: no-repeat;
@@ -1290,6 +1306,7 @@ legend {
 .show-button {
     margin: 0 auto;
     padding: 5px 33px 7px 35px;
+    width: 138px;
     color: #fff;
     line-height: 21px;
     text-transform: uppercase;
